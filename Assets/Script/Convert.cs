@@ -18,6 +18,10 @@ public class Convert : MonoBehaviour
     int checkerror;
     string firstdropdown, seconddropdown, actualresult;
     // Start is called before the first frame update
+    void Start()
+    {
+        Reset();
+    }
 
     public void ConvertTemp()
     {
